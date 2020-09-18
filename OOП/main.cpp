@@ -4,10 +4,13 @@
 
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
 using namespace std;
-int main(int argc, char** argv) {
-	
-int mass[5] = {0,1,2,3,4};
+
+int main()
+{
+int i;	
+int mass[5] = {1,2,3,4,5};
 
 int numcase;
 while(1){
@@ -37,8 +40,9 @@ switch(numcase){
 	}
 		case 2:
 			{
+			   
 				cout<<"Your Massivee====> ";
-				for(int i;i<5;i++)
+				for(i=0;i<5;i++)
 				cout<<mass[i];
 				cout<<endl;
 			
@@ -52,19 +56,14 @@ switch(numcase){
 				cout<<"Enter the number massive: ";
 				cin>>number;
 				
-				
-				for(int i;i<5;i++)
-				{
-				cout<<mass[i];
-				cout<<endl;
-				break;
-			}
-				
 				if(number==1)
 				{
 					cout<<"What number should you change?";
 					cin>>numbermen;
 					mass[0] = numbermen;
+					for(i=0;i<5;i++)
+				cout<<mass[i];
+				cout<<endl;
 				
 					
 			}
@@ -75,6 +74,9 @@ switch(numcase){
 					cout<<"What number should you change?";
 					cin>>numbermen;
 					mass[1] = numbermen;
+					for(i=0;i<5;i++)
+				cout<<mass[i];
+				cout<<endl;
 				
 				}
 				else if(number==3)
@@ -82,6 +84,9 @@ switch(numcase){
 					cout<<"What number should you change?";
 					cin>>numbermen;
 					mass[2] = numbermen;
+					for(i=0;i<5;i++)
+				cout<<mass[i];
+				cout<<endl;
 				
 						
 					
@@ -91,6 +96,9 @@ switch(numcase){
 					cout<<"What number should you change?";
 					cin>>numbermen;
 					mass[3] = numbermen;
+					for(i=0;i<5;i++)
+				cout<<mass[i];
+				cout<<endl;
 				
 					
 					
@@ -100,6 +108,9 @@ switch(numcase){
 					cout<<"What number should you change?";
 					cin>>numbermen;
 					mass[4] = numbermen;
+					for(i=0;i<5;i++)
+				cout<<mass[i];
+				cout<<endl;
 		
 					
 				}
