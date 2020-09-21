@@ -45,8 +45,6 @@ switch(numcase){
 				for(i=0;i<5;i++)
 				cout<<mass[i];
 				cout<<endl;
-			
-		
 		break;
 	}
 		case 3:
@@ -64,10 +62,8 @@ switch(numcase){
 					for(i=0;i<5;i++)
 				cout<<mass[i];
 				cout<<endl;
-				
-					
+	
 			}
-			
 				else if(number==2)
 				{
 					cout<<"What number should you change?";
@@ -85,10 +81,7 @@ switch(numcase){
 					mass[2] = numbermen;
 					for(i=0;i<5;i++)
 				cout<<mass[i];
-				cout<<endl;
-				
-						
-					
+				cout<<endl;	
 				}
 				else if(number==4)
 				{
@@ -97,10 +90,7 @@ switch(numcase){
 					mass[3] = numbermen;
 					for(i=0;i<5;i++)
 				cout<<mass[i];
-				cout<<endl;
-				
-					
-					
+				cout<<endl;	
 				}
 				else if(number==5)
 				{
@@ -110,8 +100,7 @@ switch(numcase){
 					for(i=0;i<5;i++)
 				cout<<mass[i];
 				cout<<endl;
-		
-					
+	
 				}
 			
 					break;
