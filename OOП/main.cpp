@@ -68,7 +68,6 @@ switch(numcase){
 					
 			}
 			
-				
 				else if(number==2)
 				{
 					cout<<"What number should you change?";
