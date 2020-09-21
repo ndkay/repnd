@@ -4,8 +4,8 @@ using namespace std;
 
 int main(int argc, char** argv) {
 	   
-	int g;
-	g = 2;
+	int g=2,a=5,b=7;
+	
 	c = (a+b)*g;
 cout<<"c = "<<c<<endl;	 
 	
