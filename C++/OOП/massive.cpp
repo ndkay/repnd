@@ -45,8 +45,7 @@ switch(numcase){
 				for(i=0;i<5;i++)
 				cout<<mass[i];
 				cout<<endl;
-			
-		
+	
 		break;
 	}
 		case 3:
@@ -63,9 +62,7 @@ switch(numcase){
 					mass[0] = numbermen;
 					for(i=0;i<5;i++)
 				cout<<mass[i];
-				cout<<endl;
-				
-					
+				cout<<endl;	
 			}
 			
 				
