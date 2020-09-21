@@ -18,7 +18,7 @@ while(1){
 cout<<"1:Exit 2:mass 3:element\n";
 
 cin>>numcase;
-
+ 
 switch(numcase){
 	
 	case 1:
