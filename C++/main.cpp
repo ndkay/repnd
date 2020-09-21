@@ -7,7 +7,7 @@ int main(int argc, char** argv) {
 	int g;
 	g = 2;
 	c = (a+b)*g;
-cout<<c<<endl;	 
+cout<<"c = "<<c<<endl;	 
 	
 	
 	
