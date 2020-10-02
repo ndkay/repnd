@@ -16,7 +16,7 @@ setlocale(LC_ALL,"russian");
 	cin>>k;
 	
 	
-	if(k=="Yes"||k=="yes"||k=="YES"||k=="yEs"||k=="yeS"){
+	if(k=="Yes"||k=="yes"||k=="YES"||k=="yEs"||k=="yeS"||k=="YEs"){
 		while(t<100){
 			for(t = 0.1;t<=100;t++){
 				cout<<t<<" %";
@@ -30,7 +30,7 @@ setlocale(LC_ALL,"russian");
 		cout<<"Yes or No"<<endl;
 		string h;
 		cin>>h;
-		if(h=="Yes"||k=="yes"||k=="YES"||k=="yEs"||k=="yeS"){
+		if(h=="Yes"||k=="yes"||k=="YES"||k=="yEs"||k=="yeS"||k=="YEs"){
 			for(int i = 0;i<20;i++){
 				cout<<bazanames[i]<<endl;
 			}
