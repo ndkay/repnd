@@ -1,0 +1,3 @@
+﻿  code.cpp
+C:\Users\kozly\source\repos\code\code\code.cpp(21,21): warning C4018: <: несоответствие типов со знаком и без знака
+  code.vcxproj -> C:\Users\kozly\source\repos\code\Debug\code.exe
