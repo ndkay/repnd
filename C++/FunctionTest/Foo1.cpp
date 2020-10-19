@@ -16,7 +16,7 @@ using namespace std;			//use cout/cin  (std::)
 
 void Foo1(int *arr)
 {	
-	cout<<"massive before:\t" << endl;
+	cout<<"massive before:\t";
 	
 	
 	for (int i=0; i<5; i++)
@@ -31,7 +31,7 @@ void Foo1(int *arr)
 	}
 	
 	
-	cout<<"massive after: " << endl;
+	cout<<"\nmassive after:\t";
 
 	for (int i=0; i<5; i++)
 	{
@@ -39,6 +39,8 @@ void Foo1(int *arr)
 	}
 
 
-
+	cout << endl << endl;
 }
+
+
 

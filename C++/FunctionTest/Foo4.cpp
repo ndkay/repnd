@@ -26,7 +26,9 @@ void Foo4(int *arr)
 		}
 	}	
 	
-	cout << "Naimenshee chislo: " << minValue << endl;
+	cout << "Naimenshee chislo: " << minValue << endl << endl;
 }
+
+
 
 
